@@ -21,7 +21,6 @@ if __name__ == '__main__':
                         realname    = 'pIRC Bot',
                         ident       = 'BOT',
                         command     = '$',
-                        hookscripts = ['hookoverride'],
                         replace     = dict(
                             me = 'self.config["nick"]'
                             ),
