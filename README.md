@@ -16,7 +16,7 @@ import pIRC
 if __name__ == '__main__':
     bot = pIRC.CustomBot('irc.website.com', 
                         nick        = 'DaBot',
-                        names       = ['Hey Bot','Yo Bot']
+                        names       = ['Hey Bot','Yo Bot'],
                         channels    = ['#Chan-chan'],
                         realname    = 'pIRC Bot',
                         ident       = 'BOT',
